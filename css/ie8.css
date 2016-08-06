@@ -1,0 +1,129 @@
+.menu__item_header {
+  margin-left: 30px;
+}
+.slider {
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
+}
+.paginator_header  .paginator__link {
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000', endColorstr='#66000000');
+}
+.main-info {
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#322539', endColorstr='#745083');
+}
+.article_main-info {
+  margin-left: 8%;
+}
+.article_main-info:before {
+  background-position: 0 0;
+  width: 24px;
+  height: 25px;
+  left: -48.5px;
+  top: 17px;
+}
+.paginator__item-active_testimonials:before {
+  zoom: 1;
+}
+.read-more-link_main-info {
+  margin: 14.5px 4.5% 0 0;
+}
+.article_from-blogs {
+  margin-left: 4.75%;
+}
+.article__subtitle_from-blogs {
+  margin-top: 12px;
+}
+.brands__item {
+  margin-left: 60px;
+}
+.news-column {
+  padding-left: 4%;
+}
+.news-column:first-child {
+  padding-right: 0;
+}
+
+@media screen and (max-width:959px) {
+	.article_main-info {
+	  margin-left: 10%;
+	}
+	.article_main-info:before {
+      top: 10px;
+    }
+	.article_testimonials:after {
+	  border-color: transparent;
+	}
+	.article_from-blogs {
+      padding-left: 0;
+    }
+	.article__subtitle_from-blogs:before {
+      background: url(../img/updade-icons-sprite-768.png);
+    }
+	.brands__item {
+	  margin-left: 45px;
+	}
+	.news-column:first-child {
+      padding-left: 4%;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.menu__item_header {
+	  border-bottom: 1px inset #503d58;
+	 }
+	.menu__item_home {
+      border: 1px solid transparent;
+    }
+	.menu_header:hover  .menu__item_header  {
+	  background: #3f3247;
+	}
+    .menu_header:hover  .menu__item_home {
+	  background: #3f3247;
+	  border-bottom: 1px inset #503d58;
+	}
+    .menu_header:hover .menu__item_current {
+      background: #2b2231;
+    }
+	.main-info {
+      padding-top: 55px;
+    }
+    .article_main-info:first-of-type {
+      margin-top: 15px;
+    }	
+	.article_main-info .read-more-link_main-info {
+      margin: 11px 0.8% 0 0;
+    }
+	.article_main-info:before {
+      left: 0;
+    }
+	.brands__item {
+      margin: 20px 0 0 10%;
+    }
+	.news {
+      padding-top: 10px;
+    }
+	.news-column {
+      padding-top: 45px;
+    }
+	.menu__item_footer {
+      margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:479px) {
+	.slider {
+	  filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	}
+    .paginator_header {
+      margin-top: 80px;
+    }
+	.article_main-info {
+      margin-top: 20px;
+    }
+	.article_main-info:before {
+      left: 0;
+    }
+	.brands__item {
+      margin-left: 60px;
+    }
+
+}
